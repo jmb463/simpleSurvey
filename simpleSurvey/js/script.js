@@ -12,7 +12,8 @@ $(document).ready(function() {
 
 
 function datePicker(){
-    $("#date").datepicker();
+    $("#date").datepicker({dateFormat:"dd/mm/yy"}); //dateFormat permits us change the format of the date when clicked
+}
 }
 
 function selectables(){
